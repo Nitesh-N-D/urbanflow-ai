@@ -1,8 +1,8 @@
-# Gridlock 2.0 - Bengaluru Traffic Intelligence
+# Traffic Intelligence
 
-![Python](https://img.shields.io/badge/Python-3.10-blue) ![YOLOv8](https://img.shields.io/badge/YOLOv8-ready-green) ![Streamlit](https://img.shields.io/badge/Streamlit-demo-red) ![FastAPI](https://img.shields.io/badge/FastAPI-api-teal) ![License](https://img.shields.io/badge/License-MIT-yellow)
+![Python](https://img.shields.io/badge/Python-3.10-blue) ![YOLOv8](https://img.shields.io/badge/YOLOv8-ready-green)  ![FastAPI](https://img.shields.io/badge/FastAPI-api-teal) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-Gridlock 2.0 is an end-to-end Flipkart Gridlock Hackathon project for real Bengaluru CCTV traffic data. It detects vehicles and safety violations, classifies congestion, estimates movement patterns, and exposes the result through training scripts, leaderboard submission tools, a FastAPI service, and a Streamlit dashboard.
+It detects vehicles and safety violations, classifies congestion, estimates movement patterns, and exposes the result through training scripts, leaderboard submission tools, a FastAPI service, and a Streamlit dashboard.
 
 ## Architecture
 
@@ -18,14 +18,7 @@ CCTV frames/video
       +--> Tracker + flow tools ---+
 ```
 
-## Team
 
-| Member | Role | Owns |
-|---|---|---|
-| Member 1 | Data Engineer | ingestion, augmentation, EDA |
-| Member 2 | ML Detection | YOLO training, sweeps, ensemble |
-| Member 3 | ML Analytics | congestion, violations, tracking |
-| Member 4 | Full Stack | FastAPI, Streamlit, deployment |
 
 ## Prerequisites
 
