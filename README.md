@@ -1,4 +1,4 @@
-#Traffic Intelligence
+# Traffic Intelligence
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue) ![YOLOv8](https://img.shields.io/badge/YOLOv8-ready-green)  ![FastAPI](https://img.shields.io/badge/FastAPI-api-teal) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
