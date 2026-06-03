@@ -1,6 +1,6 @@
-# Gridlock 2.0 - Bengaluru Traffic Intelligence
+#Traffic Intelligence
 
-![Python](https://img.shields.io/badge/Python-3.10-blue) ![YOLOv8](https://img.shields.io/badge/YOLOv8-ready-green) ![Streamlit](https://img.shields.io/badge/Streamlit-demo-red) ![FastAPI](https://img.shields.io/badge/FastAPI-api-teal) ![License](https://img.shields.io/badge/License-MIT-yellow)
+![Python](https://img.shields.io/badge/Python-3.10-blue) ![YOLOv8](https://img.shields.io/badge/YOLOv8-ready-green)  ![FastAPI](https://img.shields.io/badge/FastAPI-api-teal) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 It detects vehicles and safety violations, classifies congestion, estimates movement patterns, and exposes the result through training scripts, leaderboard submission tools, a FastAPI service, and a Streamlit dashboard.
 
