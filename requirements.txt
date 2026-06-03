@@ -1,0 +1,33 @@
+ultralytics==8.2.0
+torch==2.3.1
+torchvision==0.18.1
+timm==0.9.16
+huggingface_hub==0.23.5
+opencv-python-headless==4.10.0.84
+numpy==1.26.4
+Pillow==10.3.0
+scikit-learn==1.5.0
+scipy==1.13.0
+pandas==2.2.2
+albumentations==1.4.6
+ensemble-boxes==1.0.9
+pycocotools==2.0.7
+filterpy==1.4.5
+# Optional ByteTrack acceleration. lap==0.4.0 often fails to build on Windows;
+# the project falls back to SimpleIOUTracker when it is unavailable.
+# Install manually on Colab/Linux if needed: pip install lap==0.4.0
+roboflow==1.1.36
+wandb==0.17.0
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+streamlit==1.36.0
+gradio==4.36.0
+python-multipart==0.0.9
+slowapi==0.1.9
+matplotlib==3.9.0
+seaborn==0.13.2
+plotly==5.22.0
+tqdm==4.66.4
+pyyaml==6.0.1
+python-dotenv==1.0.1
+pytest==8.2.2

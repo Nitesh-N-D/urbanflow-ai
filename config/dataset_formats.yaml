@@ -1,0 +1,9 @@
+yolo:
+  images: images
+  labels: labels
+coco:
+  annotation_keys: [images, annotations, categories]
+voc:
+  annotations: Annotations
+video:
+  extensions: [.mp4, .avi, .mkv, .mov, .ts]

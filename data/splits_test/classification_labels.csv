@@ -1,0 +1,13 @@
+split,image_path,label
+train,data\processed\synthetic\images\synthetic_0006.jpg,standstill
+train,data\processed\synthetic\images\synthetic_0008.jpg,heavy_traffic
+train,data\processed\synthetic\images\synthetic_0001.jpg,free_flow
+train,data\processed\synthetic\images\synthetic_0004.jpg,slow_moving
+train,data\processed\synthetic\images\synthetic_0002.jpg,free_flow
+train,data\processed\synthetic\images\synthetic_0007.jpg,slow_moving
+train,data\processed\synthetic\images\synthetic_0003.jpg,free_flow
+train,data\processed\synthetic\images\synthetic_0011.jpg,standstill
+val,data\processed\synthetic\images\synthetic_0010.jpg,free_flow
+val,data\processed\synthetic\images\synthetic_0000.jpg,free_flow
+test,data\processed\synthetic\images\synthetic_0009.jpg,standstill
+test,data\processed\synthetic\images\synthetic_0005.jpg,free_flow

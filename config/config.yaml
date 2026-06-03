@@ -1,0 +1,55 @@
+project:
+  name: gridlock2-bengaluru-traffic
+  version: 2.0.0
+  seed: 42
+  team: MIT-GridLock
+data:
+  raw_dir: ${BTP_DATA_DIR:data/raw}
+  processed_dir: data/processed
+  augmented_dir: data/augmented
+  supplemental_dir: data/supplemental
+  splits_dir: data/splits
+  train_split: 0.7
+  val_split: 0.15
+  test_split: 0.15
+  image_size: 640
+  synthetic_count: 96
+model:
+  detector:
+    architecture: yolov8m
+    pretrained_weights: yolov8m.pt
+    epochs: 100
+    batch_size: 16
+    learning_rate: 0.001
+    weight_decay: 0.0005
+    conf_threshold: 0.25
+    iou_threshold: 0.45
+    class_names: [car, motorcycle, truck, bus, auto_rickshaw, person, helmet, no_helmet]
+  classifier:
+    architecture: efficientnet_b3
+    class_names: [free_flow, slow_moving, heavy_traffic, standstill]
+    epochs: 50
+    batch_size: 32
+    learning_rate: 0.0003
+training:
+  checkpoint_dir: checkpoints
+  checkpoint_every_n_epochs: 5
+  early_stopping_patience: 15
+  mixed_precision: true
+  gradient_clip: 10.0
+  gdrive_sync: ${GDRIVE_CHECKPOINT_DIR:null}
+inference:
+  tta: true
+  ensemble: true
+  ensemble_method: wbf
+  image_size: 832
+  class_thresholds:
+    car: 0.25
+    motorcycle: 0.30
+    truck: 0.25
+    bus: 0.25
+    auto_rickshaw: 0.30
+    person: 0.35
+demo:
+  host: 0.0.0.0
+  port: 8000

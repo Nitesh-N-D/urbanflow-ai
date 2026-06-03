@@ -1,0 +1,5 @@
+data:
+  raw_dir: /content/gridlock2/data/raw
+training:
+  checkpoint_dir: /content/gridlock2/checkpoints
+  gdrive_sync: /content/drive/MyDrive/gridlock2-checkpoints
