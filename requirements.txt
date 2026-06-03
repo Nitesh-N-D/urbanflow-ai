@@ -1,6 +1,6 @@
-ultralytics==8.2.0
-torch==2.3.1
-torchvision==0.18.1
+ultralytics>=8.3.0
+torch>=2.9.0
+torchvision>=0.24.0
 timm==0.9.16
 huggingface_hub==0.23.5
 opencv-python-headless==4.10.0.84
